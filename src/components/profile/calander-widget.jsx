@@ -57,7 +57,7 @@ export default function CalendarWidget() {
                     {interviews.map((interview, index) => (
                         <div
                             key={index}
-                            className="flex items-center justify-between gap-2 hover:bg-gray-50"
+                            className="flex items-center justify-between gap-2 hover:bg-gray-50 "
                         >
                             {/* Company Logo and Details */}
                             <div className="flex items-center gap-3">

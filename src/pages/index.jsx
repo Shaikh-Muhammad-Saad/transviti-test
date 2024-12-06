@@ -18,7 +18,7 @@ function Home() {
         {/* Jobs Search */}
         <JobSearch />
 
-        <div className="overflow-y-auto h-96 scrollbar">
+        <div className="md:overflow-y-auto md:h-96 scrollbar">
           {/* Featured Jobs */}
           <FeaturedJobs /> <br /> <br />
 

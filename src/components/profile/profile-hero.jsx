@@ -25,7 +25,7 @@ export function ProfileHero() {
         </div>
       </div>
 
-      <div className='text-center pt-14'>
+      <div className='text-center pt-14 px-2'>
         <h2 className="text-lg font-semibold text-gray-900">Albert Flores</h2>
         <p className="mt-1 text-sm text-gray-600 font-[100]">
           Senior Product Designer | UI/UX Designer | Graphic Designer | Web Designer
