@@ -79,7 +79,7 @@ export default function CalendarWidget() {
                             </div>
 
                             {/* Actions */}
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center flex-row lg:flex-col xl:flex-row gap-2">
                                 <div className="text-xs rounded bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
                                     {interview.status}
                                 </div>

@@ -25,7 +25,7 @@ export function NavBar() {
             />
           </Link>
 
-          <div className="hidden items-center space-x-4  xl:space-x-6 xl:flex">
+          <div className="hidden items-center space-x-4  xl:space-x-5 xl:flex">
             <Link href="/" className="text-sm font-bold text-primary-600">
               Find Jobs
             </Link>
