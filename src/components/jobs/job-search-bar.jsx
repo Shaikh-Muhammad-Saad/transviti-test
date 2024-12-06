@@ -28,7 +28,7 @@ export default function JobSearchBar() {
         <div className="">
             <div className="flex flex-col gap-4 md:flex-row md:items-center rounded-lg px-6 py-5 bg-white shadow-sm">
                 {/* Search Input */}
-                <div className="flex w-[50%] xl:w-[450px]">
+                <div className="flex w-[50%] xl:w-[70%]">
                     <input
                         type="text"
                         placeholder="Job Title, Company, or Keywords"

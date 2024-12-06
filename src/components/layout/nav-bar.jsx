@@ -25,7 +25,7 @@ export function NavBar() {
             />
           </Link>
 
-          <div className="hidden items-center space-x-4 xl:space-x-8 xl:flex">
+          <div className="hidden items-center space-x-4  xl:space-x-6 xl:flex">
             <Link href="/" className="text-sm font-bold text-primary-600">
               Find Jobs
             </Link>
@@ -50,10 +50,10 @@ export function NavBar() {
           </div>
         </div>
 
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-5">
 
-          <div className="hidden xl:flex gap-6">
-            <SearchBar />
+          <div className="hidden xl:flex gap-4">
+            <SearchBar className={"w-56"} />
             <CustomButton> Resume Builder</CustomButton>
           </div>
 
