@@ -25,3 +25,21 @@ body {
     text-wrap: balance;
   }
 }
+
+/* .scrollbar ::-webkit-scrollbar {
+  width: 0px;
+} */
+
+.scrollbar {
+  overflow: auto; /* Ensures the element can scroll if needed */
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar for vertical scroll */
+  height: 0; /* Hide the scrollbar for horizontal scroll */
+}
+
+.scrollbar {
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
