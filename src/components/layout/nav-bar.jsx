@@ -29,22 +29,22 @@ export function NavBar() {
             <Link href="/" className="text-sm font-bold text-primary-600">
               Find Jobs
             </Link>
-            <Link href="/" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/companies" className="text-sm font-medium text-gray-500 hover:text-gray-900">
               Top Companies
             </Link>
-            <Link href="/" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/tracker" className="text-sm font-medium text-gray-500 hover:text-gray-900">
               Job Tracker
             </Link>
-            <Link href="/" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/calendar" className="text-sm font-medium text-gray-500 hover:text-gray-900">
               My Calendar
             </Link>
-            <Link href="/" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/documents" className="text-sm font-medium text-gray-500 hover:text-gray-900">
               Documents
             </Link>
-            <Link href="/" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/messages" className="text-sm font-medium text-gray-500 hover:text-gray-900">
               Messages
             </Link>
-            <Link href="/" className="text-sm font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/notifications" className="text-sm font-medium text-gray-500 hover:text-gray-900">
               Notifications
             </Link>
           </div>
@@ -76,7 +76,7 @@ export function NavBar() {
       {isMenuOpen && (
         <div className="border-t bg-white px-4 py-2 xl:hidden absolute w-full shadow-2xl ">
           <div className="flex flex-col space-y-4 py-4">
-            <Link href="/jobs" className="text-sm font-medium text-primary-600">
+            <Link href="/" className="text-sm font-medium text-primary-600">
               Find Jobs
             </Link>
             <Link href="/companies" className="text-sm font-medium text-gray-500">
@@ -93,6 +93,9 @@ export function NavBar() {
             </Link>
             <Link href="/messages" className="text-sm font-medium text-gray-500">
               Messages
+            </Link>
+            <Link href="/notifications" className="text-sm font-medium text-gray-500">
+              Notifications
             </Link>
             <SearchBar className={"w-full"} />
             <CustomButton> Resume Builder</CustomButton>
