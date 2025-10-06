@@ -6,7 +6,7 @@ export function ProfileHero() {
     <div className="relative bg-white rounded-xl pb-5">
 
       <div className="relative h-[120px] w-full overflow-hidden rounded-t-xl">
-        <img
+        <Image
           src="/bg-image.jpg"
           alt="Cover"
           fill
@@ -16,7 +16,7 @@ export function ProfileHero() {
 
       <div className="absolute left-[50%] transform -translate-x-1/2 -translate-y-1/2 ">
         <div className="relative h-24 w-24 overflow-hidden rounded-full border-4 border-white bg-white shadow-lg">
-          <img
+          <Image
             src="/profile-image.png"
             alt="Profile"
             fill

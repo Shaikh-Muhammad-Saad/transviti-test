@@ -1,5 +1,6 @@
 import { Bookmark, MapPin, Clock } from 'lucide-react'
 import CustomButton from '../common/custom-button'
+import Image from 'next/image'
 
 export default function JobCard({
   title,
@@ -26,7 +27,7 @@ export default function JobCard({
           <div className='flex justify-start'>
             {/* Company Logo */}
             <div className="relative h-8 w-8 overflow-hidden rounded-lg border border-gray-100 mr-4">
-              <img
+              <Image
                 src="/job-company-logo.png"
                 alt={company}
                 fill
