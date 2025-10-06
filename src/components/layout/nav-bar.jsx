@@ -1,5 +1,6 @@
 import { Bell, Menu, Search } from 'lucide-react'
 import Link from "next/link"
+import Image from 'next/image'
 import { useState } from 'react'
 import CustomButton from '../common/custom-button'
 import SearchBar from '../common/search-bar'
@@ -16,7 +17,7 @@ export function NavBar() {
         <div className="flex items-center gap-8">
 
           <Link href="/" className="flex items-center gap-2">
-            <img
+            <Image
               src="/logo.svg"
               alt="Logo"
               width={60}
@@ -58,7 +59,7 @@ export function NavBar() {
           </div>
 
           <button className="relative h-8 w-8 overflow-hidden rounded-full border border-gray-200">
-          <img
+          <Image
             src="/profile-image.png"
             alt="Profile"
             fill

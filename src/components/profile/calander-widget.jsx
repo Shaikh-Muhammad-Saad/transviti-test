@@ -62,7 +62,7 @@ export default function CalendarWidget() {
                             {/* Company Logo and Details */}
                             <div className="flex items-center gap-3">
                                 <div className="relative h-10 w-10 overflow-hidden rounded-lg">
-                                    <img
+                                    <Image
                                         src="/figma.png"
                                         alt="Figma"
                                         fill
